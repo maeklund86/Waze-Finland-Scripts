@@ -72,8 +72,18 @@ HTML-työkalu, joka analysoi XLSM/XLSX-tiedostoja ja etsii niistä koordinaattej
 
 ---
 
+### WME MML-katutarkistus
+**Versio:** 0.5.2 | **Tekijä:** [Sam (samisepp)](https://github.com/samisepp)
+
+Vertaa näkyvien tie- ja katusegmenttien nimiä Maanmittauslaitoksen (MML) geokoodausrajapinnan tieosoiteaineistoon ja korostaa segmentit, joiden katua ei löydy virallisesta aineistosta tai jotka näyttävät kuuluvan eri kuntaan. Auttaa löytämään esimerkiksi keksittyjä tai poistuneita tiennimiä. Vaatii MML:n API-avaimen. Sisältää välimuistin, rinnakkaiset kyselyt sekä valinnaisen automaattitarkistuksen kartan liikkuessa.
+
+**Tiedosto:** [`scripts/mml-katutarkistus/WME MML-katutarkistus.js`](scripts/mml-katutarkistus/WME%20MML-katutarkistus.js)
+**Ohjeet:** [scripts/mml-katutarkistus/README.md](scripts/mml-katutarkistus/README.md)
+
+---
+
 ### WME RPP Visualizer
-**Versio:** 1.0.0 | **Tekijä:** RucaDestiny
+**Versio:** 1.1.0 | **Tekijä:** [RucaDestiny(maeklund86)](https://github.com/maeklund86)
 
 Näyttää katunumerot, sisäänkäyntipisteet ja yhdysviivat Residential Point Placeille (RPP) WME-kartalla.
 
@@ -104,4 +114,7 @@ Yhteisön kontribuutiot ovat tervetulleita! Voit osallistua:
 
 
 ## Kiitokset
-[Stemmi90](https://github.com/Stemmi90)
+Kiitos kaikille suomalaisen Waze-yhteisön vapaaehtoisille, jotka ovat jakaneet skriptejään ja työkalujaan tähän kokoelmaan:
+
+- [Stemmi90](https://github.com/Stemmi90)
+- [samisepp](https://github.com/samisepp)
